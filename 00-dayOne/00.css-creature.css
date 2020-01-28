@@ -1,0 +1,395 @@
+.fabric {
+  background-color: #8c5a3c;
+}
+#jawa {
+  display: block;
+  width: 300px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -moz-transform: scale(0.75) translateX(-50%);
+  -webkit-transform: scale(0.75) translateX(-50%);
+  -o-transform: scale(0.75) translateX(-50%);
+  -ms-transform: scale(0.75) translateX(-50%);
+  transform: scale(0.75) translateX(-50%);
+}
+#jawa #head,
+#jawa #torso,
+#jawa #legs {
+  margin: 0 auto;
+}
+#jawa #head {
+  width: 125px;
+  height: 125px;
+  display: block;
+  background-color: #8c5a3c;
+  -webkit-border-radius: 125px 125px 25px 25px;
+  border-radius: 125px 125px 25px 25px;
+}
+#jawa #head #cowl {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  display: block;
+}
+#jawa #head #cowl #opening {
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 85px;
+  height: 85px;
+  -webkit-border-radius: 85px 85px 21.25px 21.25px;
+  border-radius: 85px 85px 21.25px 21.25px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  display: block;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+#jawa #head #cowl #opening #eyes {
+  width: 100%;
+  display: block;
+  height: 15px;
+  position: relative;
+  top: 34px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+#jawa #head #cowl #opening #eyes > div {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  background-color: yellow;
+  position: relative;
+  margin: 0 10px;
+  -webkit-box-shadow: 0 0 2px 2px yellow;
+  box-shadow: 0 0 2px 2px yellow;
+}
+#jawa .hand {
+  position: absolute;
+  z-index: 13;
+  width: 34px;
+  height: 34px;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  border-radius: 10px 10px 0 0;
+}
+#jawa #arm-left .cuff {
+  position: absolute;
+  z-index: 11;
+  background-color: #8c5a3c;
+  width: 30px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  top: 200px;
+  left: 90px;
+  -moz-transform: rotate(-27deg);
+  -webkit-transform: rotate(-27deg);
+  -o-transform: rotate(-27deg);
+  -ms-transform: rotate(-27deg);
+  transform: rotate(-27deg);
+}
+#jawa #arm-left .cuff .inner {
+  position: relative;
+  top: 8px;
+  left: 5px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+}
+#jawa #arm-left .sleeve {
+  position: absolute;
+  z-index: 10;
+  width: 0;
+  height: 0;
+  border-left: 14px solid transparent;
+  border-right: 74px solid transparent;
+  border-bottom: 120px solid #8c5a3c;
+  left: 46px;
+  top: 154px;
+  -moz-transform: rotate(26deg);
+  -webkit-transform: rotate(26deg);
+  -o-transform: rotate(26deg);
+  -ms-transform: rotate(26deg);
+  transform: rotate(26deg);
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+}
+#jawa #arm-left .hand {
+  osition: absolute;
+  top: 221px;
+  left: 98px;
+  z-index: 13;
+  -moz-transform: rotate(102deg);
+  -webkit-transform: rotate(102deg);
+  -o-transform: rotate(102deg);
+  -ms-transform: rotate(102deg);
+  transform: rotate(102deg);
+}
+#jawa #arm-right .cuff {
+  position: absolute;
+  z-index: 11;
+  background-color: #8c5a3c;
+  width: 50px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  top: 190px;
+  right: 100px;
+  -moz-transform: rotate(23deg);
+  -webkit-transform: rotate(23deg);
+  -o-transform: rotate(23deg);
+  -ms-transform: rotate(23deg);
+  transform: rotate(23deg);
+}
+#jawa #arm-right .cuff .inner {
+  position: relative;
+  top: 8px;
+  left: 5px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+}
+#jawa #arm-right .sleeve {
+  position: absolute;
+  z-index: 10;
+  width: 0;
+  height: 0;
+  border-left: 61px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 120px solid #8c5a3c;
+  right: 64px;
+  top: 144px;
+  -moz-transform: rotate(-11deg);
+  -webkit-transform: rotate(-11deg);
+  -o-transform: rotate(-11deg);
+  -ms-transform: rotate(-11deg);
+  transform: rotate(-11deg);
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+}
+#jawa #arm-right .hand {
+  top: 192px;
+  left: 150px;
+  -moz-transform: rotate(-39deg);
+  -webkit-transform: rotate(-39deg);
+  -o-transform: rotate(-39deg);
+  -ms-transform: rotate(-39deg);
+  transform: rotate(-39deg);
+}
+#jawa #torso {
+  width: 125px;
+  height: 136px;
+  background-color: #8c5a3c;
+  -webkit-border-radius: 30px 30px 0 0;
+  border-radius: 30px 30px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+#jawa #torso #over-shadow {
+  position: absolute;
+  width: 100%;
+  height: 14px;
+  z-index: 9;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+  /* IE6-9 */
+}
+#jawa #torso #sash-under {
+  position: absolute;
+  z-index: 1;
+  background-color: tan;
+  height: 20px;
+  width: 160px;
+  -moz-transform: rotate(-39deg);
+  -webkit-transform: rotate(-39deg);
+  -o-transform: rotate(-39deg);
+  -ms-transform: rotate(-39deg);
+  transform: rotate(-39deg);
+  top: 43px;
+  left: -25px;
+  -webkit-box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.5);
+}
+#jawa #torso #sash-over {
+  position: absolute;
+  z-index: 2;
+  width: 180px;
+  height: 20px;
+  display: block;
+  background-color: saddlebrown;
+  top: 56px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: -17px;
+  -webkit-box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.5);
+}
+#jawa #torso #sash-over ul {
+  margin: 0;
+  padding: 0px;
+  margin-left: 10px;
+}
+#jawa #torso #sash-over .pouch {
+  width: 26px;
+  height: 30px;
+  display: inline-block;
+  background-color: saddlebrown;
+  margin-top: -5px;
+  -webkit-box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  margin-left: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+#jawa #legs {
+  border-bottom: 200px solid #8c5a3c;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 125px;
+}
+#jawa #blaster {
+  position: absolute;
+  top: 221px;
+  left: 100px;
+  z-index: 12;
+  transform: rotate(-37deg);
+}
+#jawa #blaster #barrel {
+  width: 100px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #555;
+}
+#jawa #blaster #flare {
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 100px;
+  border-bottom: 16px solid transparent;
+  border-top: 16px solid transparent;
+  border-right: 58px solid #555;
+  height: 12px;
+  width: 0;
+  border-radius: 12px;
+}
+#jawa #blaster #stock {
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: -45px;
+  border-bottom: 84px solid #555;
+  border-left: 0px solid transparent;
+  border-right: 31px solid transparent;
+  height: 0;
+  width: 12px;
+  transform: rotate(58deg);
+}
+#jawa #blaster #accents ul {
+  margin: 0;
+  padding: 0;
+}
+#jawa #blaster #accents ul li {
+  display: inline-block;
+  background-color: #555;
+  width: 12px;
+  height: 36px;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  border-radius: 8px;
+}
+#jawa #blaster #accents ul li:nth-child(2) {
+  left: 20px;
+}
+#jawa #blaster #accents ul li:nth-child(3) {
+  left: 92px;
+}
+#sand {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  height: 4em;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d5cea6+0,c9c190+40,b7ad70+100;Brown+3D */
+  background: #d5cea6;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #d5cea6 0%, #c9c190 40%, #b7ad70 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #d5cea6 0%, #c9c190 40%, #b7ad70 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #d5cea6 0%, #c9c190 40%, #b7ad70 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d5cea6', endColorstr='#b7ad70', GradientType=0);
+  /* IE6-9 */
+}
+#sky {
+  position: absolute;
+  z-index: -3;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5800d3+0,ffd199+100 */
+  background: #5800d3;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #5800d3 0%, #ffd199 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #5800d3 0%, #ffd199 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #5800d3 0%, #ffd199 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5800d3', endColorstr='#ffd199', GradientType=0);
+  /* IE6-9 */
+}
+#twin-suns {
+  position: absolute;
+  z-index: -1;
+  right: 4em;
+  bottom: 10em;
+}
+#twin-suns > div {
+  display: block;
+  width: 2em;
+  height: 2em;
+  border-radius: 2em;
+  position: relative;
+}
+#twin-suns #sun1 {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 8px 2px #fff;
+  box-shadow: 0 0 8px 2px #fff;
+  top: -10px;
+  left: -40px;
+}
+#twin-suns #sun2 {
+  background-color: red;
+  -webkit-box-shadow: 0 0 8px 2px red;
+  box-shadow: 0 0 8px 2px red;
+}

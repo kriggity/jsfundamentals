@@ -1,0 +1,30 @@
+body > div {
+  background-color: rgba(0, 0, 0, 0.666);
+  border: 8px solid #000;
+  border-radius: 12px;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+body > div > div {
+  border: 4px solid blue;
+  border-radius: 8px;
+  background-color: #ccc;
+  margin: 1em;
+}
+div {
+  text-align: center;
+}
+h1 {
+  color: #90ee90;
+}
+h3,
+p {
+  display: inline-block;
+}
+h3 {
+  color: blue;
+}
+p {
+  color: red;
+}
