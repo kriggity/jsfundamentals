@@ -20,3 +20,9 @@ function Person(name, age, canVote) {
 //            (7)   (8)
 let person4 = new Person('James', 80, true);
 console.log(person4);
+
+function whatDoesItDo(val) {
+    console.log( val ? 1 : 2);
+  }; 
+
+whatDoesItDo(-5);
