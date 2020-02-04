@@ -1,0 +1,6 @@
+.jumbotron {
+  background: url("../assets/kitteh.jpg") 50% 50%;
+  background-size: cover;
+  color: #fff;
+  font-family: var(--heading-font);
+}
