@@ -12,5 +12,5 @@ if (arr instanceof Array) {
     let reverseArr = arr.reverse();
     reverseArr.forEach(movieTitle => console.log(movieTitle));
 } else {
-    console.log("Not an array.")
+    console.log("Not an array.");
 }
